@@ -1,0 +1,29 @@
+<apex:page sidebar="false" showChat="false" standardcontroller="Account">
+    <head>
+        <title>new title</title>
+    </head>
+    <body>
+        <h1>Congratulations</h1>
+        This is your new Page
+        <apex:pageBlock title="Another PageBlock" helpTitle="go to Google" helpUrl="https://c.eu0.visual.force.com/apex/WarehouseDataInstall">
+            <h1>Block Head 1</h1>
+            <apex:pageBlockSection title="First section">
+                You are in section 1
+            </apex:pageBlockSection>
+            <apex:pageblockSection title="Second section">
+                <apex:pageblockSectionItem >
+                    First item of secon section
+                </apex:pageblockSectionItem>
+                <apex:pageblockSectionItem >
+                    Second item of secon section
+                </apex:pageblockSectionItem>
+                <apex:pageblockSectionItem >
+                    Third item of secon section
+                </apex:pageblockSectionItem>
+            </apex:pageblockSection>
+            <apex:pageBlocksection title="Third section for you" >
+                You are in section 3
+            </apex:pageBlocksection>
+        </apex:pageBlock>
+    </body>
+</apex:page>
